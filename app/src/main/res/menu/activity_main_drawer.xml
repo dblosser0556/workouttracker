@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/nav_menu_route_gallery" />
+        <item
+            android:id="@+id/nav_goals"
+            android:icon="@drawable/ic_menu_goals"
+            android:title="@string/nav_menu_goals" />
+        <item
+            android:id="@+id/nav_activity_chart"
+            android:icon="@drawable/ic_menu_activity_chart"
+            android:title="@string/nav_menu_activity_chart" />
+        <item
+            android:id="@+id/nav_details"
+            android:icon="@drawable/ic_menu_details"
+            android:title="@string/nav_menu_details" />
+    </group>
+
+    <item android:title="@string/nav_menu_title_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_menu_share_route" />
+            <item
+                android:id="@+id/nav_find_routes"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/nav_menu_find_routes" />
+        </menu>
+    </item>
+
+</menu>

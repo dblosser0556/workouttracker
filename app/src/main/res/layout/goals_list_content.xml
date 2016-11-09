@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:background="@color/colorBackgroundLight"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/list_margin"
+            android:layout_marginTop="@dimen/list_margin"
+            android:text="@string/goal_mode_label"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvGoalModeType"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/list_margin"
+            android:textAppearance="?attr/textAppearanceListItem" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/list_margin"
+            android:layout_marginTop="@dimen/list_margin"
+            android:text="@string/goal_value_type_label"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvGoalValueType"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/list_margin"
+            android:textAppearance="?attr/textAppearanceListItem" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/list_margin"
+            android:layout_marginTop="@dimen/list_margin"
+            android:text="@string/goal_intervals_label"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvGoalInterval"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/list_margin"
+            android:textAppearance="?attr/textAppearanceListItem" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/list_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/list_margin"
+            android:layout_marginTop="@dimen/list_margin"
+            android:text="Goal:"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvGoalValue"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/list_margin"
+                android:textAlignment="viewEnd"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+            <TextView
+                android:id="@+id/tvGoalValueUOM"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/list_margin"
+                android:layout_marginRight="@dimen/list_margin"
+                android:textAppearance="?attr/textAppearanceListItem" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackgroundLight">#f5f5f5</color>
+    <color name="colorBackGroundGrey">#cfd8dc</color>
+    <color name="colorBarChart1">#43a047</color>
+    <color name="colorBarChart2">#01579b</color>
+    <color name="colorBarChart3">#cf3737</color>
+    <color name="colorBarChart4">#d7bc22</color>
+    <color name="colorStack0BarChart1">#009707</color>
+    <color name="colorStack0BarChart2">#799629</color>
+    <color name="colorStack0BarChart3">#827717</color>
+    <color name="colorStack1BarChart1">#01579b</color>
+    <color name="colorStack1BarChart2">#3b6f97</color>
+    <color name="colorStack1BarChart3">#6c7e8c</color>
+    <color name="colorStack2BarChart1">#8c0101</color>
+    <color name="colorStack2BarChart2">#8e1c4f</color>
+    <color name="colorStack2BarChart3">#891587</color>
+</resources>

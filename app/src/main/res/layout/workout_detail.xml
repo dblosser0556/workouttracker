@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/workout_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.sighe.workouttracker.activity.WorkOutDetailFragment">
+
+    <RelativeLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvHisStartTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:layout_row="0"
+                android:ems="10"
+                android:padding="3dp"
+                android:text="@string/start_time" />
+
+            <TextView
+                android:id="@+id/tvHisEndTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_margin="5dp"
+                android:layout_row="0"
+                android:ems="10"
+                android:padding="3dp"
+                android:text="@string/end_time" />
+
+            <TextView
+                android:id="@+id/tvHisElapseTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:layout_margin="5dp"
+                android:layout_row="1"
+                android:ems="10"
+                android:padding="3dp"
+                android:text="@string/elapsed_time" />
+
+            <TextView
+                android:id="@+id/tvHisStepTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:layout_row="2"
+                android:ems="10"
+                android:padding="3dp"
+                android:text="@string/step_total" />
+
+            <TextView
+                android:id="@+id/tvHisDistanceTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_margin="5dp"
+                android:layout_row="2"
+                android:ems="10"
+                android:padding="3dp"
+                android:text="@string/total_distance" />
+
+            <TextView
+                android:id="@+id/tvHisAverageSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:layout_row="3"
+                android:ems="10"
+                android:padding="3dp"
+                android:text="@string/avg_speed" />
+
+            <TextView
+                android:id="@+id/tvHisAverageStepsPerMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_margin="5dp"
+                android:layout_row="3"
+                android:ems="10"
+                android:padding="3dp"
+                android:text="@string/avg_steps_min" />
+
+        </GridLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/gridLayout"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/workout_detail_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark" />
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_workout_mode_titles"
+        android:entryValues="@array/pref_workout_mode_values"
+        android:key="workout_mode"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="@string/pref_description_workout_mode"
+        android:title="@string/pref_title_workout_mode" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_distance_UOM_titles"
+        android:entryValues="@array/pref_distance_UOM_values"
+        android:key="distance_uom"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_distance_uom" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_speed_UOM_titles"
+        android:entryValues="@array/pref_speed_UOM_values"
+        android:key="speed_uom"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_speed_uom" />
+
+</PreferenceScreen>

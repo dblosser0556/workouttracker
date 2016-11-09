@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">Workout Tracker</string>
+
+    <!-- Main Activity -->
+    <!-- Menu  -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Action buttons   -->
+    <string name="button_start">Start</string>
+    <string name="button_pause">Pause</string>
+    <string name="button_reset">Reset</string>
+    <string name="button_stop">Stop</string>
+
+    <!-- Text box display -->
+    <string name="start_time">Start: %s</string>
+    <string name="end_time">End: %s</string>
+    <string name="elapsed_time">Elapsed Time: %s</string>
+    <string name="step_total">Step Total: %s</string>
+    <string name="total_distance" formatted="false">Total %s: %s</string>
+    <string name="avg_speed" formatted="false">Avg %s: %s</string>
+    <string name="cur_speed" formatted="false">Cur %s: %s</string>
+    <string name="avg_steps_min">Avg Steps/Min: %s</string>
+    <string name="steps_min">Cur Steps/Min: %s</string>
+
+    <!-- Messages from the tracker services  -->
+    <string name="gps_error">GPS ERROR</string>
+    <string name="gps_error_text">There seems to something wrong with the GPS.  Make sure it is on.</string>
+    <string name="gps_off">GPS OFF</string>
+    <string name="gps_off_text">The GPS seems to be turned off.  Please turn it on.</string>
+    <string name="gps_available_text">GPS available.</string>
+
+    <!--       Work Out Detail Activity         -->
+    <string name="title_workout_list">WorkOuts</string>
+    <string name="title_workout_detail">WorkOut Detail</string>
+
+    <!-- Text box display for captured routes -->
+    <string name="locLat">Loc: %s</string>
+    <string name="locLong">Long: %s</string>
+    <string name="incr_dist">Dist: %s</string>
+    <string name="incr_time">Elapsed Time: %s</string>
+    <string name="incr_steps">Step: %s</string>
+
+    <!-- Navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_menu_route_gallery">Route Gallery</string>
+    <string name="nav_menu_goals">Goals</string>
+    <string name="nav_menu_activity_chart">Activity Chart</string>
+    <string name="nav_menu_details">Details</string>
+    <string name="nav_menu_title_communicate">Communicate</string>
+    <string name="nav_menu_share_route">Share Route</string>
+    <string name="nav_menu_find_routes">Find Routes</string>
+    <string name="title_activity_chart">ChartActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Default Displays</string>
+
+    <string name="pref_title_workout_mode">Default Work Out Mode</string>
+    <string name="pref_description_workout_mode">Select the normal work out mode.
+    </string>
+
+    <string-array name="pref_workout_mode_titles">
+        <item>Walking</item>
+        <item>Running</item>
+        <item>Biking</item>
+    </string-array>
+    <string-array name="pref_workout_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string name="pref_title_distance_uom">How to display distance?</string>
+    <string-array name="pref_distance_UOM_titles">
+        <item>Miles</item>
+        <item>Kilometers</item>
+        <item>Feet</item>
+        <item>Meters</item>
+    </string-array>
+    <string-array name="pref_distance_UOM_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="pref_title_speed_uom">How to display speed?</string>
+    <string-array name="pref_speed_UOM_titles">
+        <item>Miles Per Hour (mph)</item>
+        <item>Meters Per Second (m/s)</item>
+        <item>Kilometers Per Hour (kph)</item>
+        <item>Minutes Per Mile (mpm)</item>
+    </string-array>
+    <string-array name="pref_speed_UOM_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_goals">GoalsActivity</string>
+    <string name="title_activity_settings2_acitiv">Settings</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Edit Goals Fragment strings -->
+    <string name="goal_mode_label">Mode:</string>
+    <string-array name="goal_modes_array">
+        <item>Please Select</item>
+        <item>Walking</item>
+        <item>Running</item>
+        <item>Biking</item>
+    </string-array>
+    <string name="goal_intervals_label">Inteval:</string>
+    <string-array name="goal_intevals_array">
+        <item>Please Select</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Montly</item>
+    </string-array>
+    <string name="goal_value_type_label">Type:</string>
+    <string name="goal_add_goal_title">Add Goal</string>
+    <string name="goal_update_goal_title">Update Goal</string>
+    <string-array name="goal_value_types_array">
+        <item>Please Select</item>
+        <item>Distance</item>
+        <item>Time</item>
+        <item>Steps</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>
